@@ -47,9 +47,11 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
     vendor/nokia/sdm660-common/proprietary/lib/com.quicinc.cne.server@1.0.so:system/lib/com.quicinc.cne.server@1.0.so \
     vendor/nokia/sdm660-common/proprietary/lib/extractors/libmmparser.so:system/lib/extractors/libmmparser.so \
+    vendor/nokia/sdm660-common/proprietary/lib/fm_helium.so:system/lib/fm_helium.so \
     vendor/nokia/sdm660-common/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
     vendor/nokia/sdm660-common/proprietary/lib/libOmxMux.so:system/lib/libOmxMux.so \
     vendor/nokia/sdm660-common/proprietary/lib/libdisplayconfig.so:system/lib/libdisplayconfig.so \
+    vendor/nokia/sdm660-common/proprietary/lib/libfm-hci.so:system/lib/libfm-hci.so \
     vendor/nokia/sdm660-common/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/nokia/sdm660-common/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
     vendor/nokia/sdm660-common/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
@@ -78,11 +80,13 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/lib/vendor.qti.hardware.data.latency@1.0.so:system/lib/vendor.qti.hardware.data.latency@1.0.so \
     vendor/nokia/sdm660-common/proprietary/lib64/com.qualcomm.qti.ant@1.0.so:system/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/nokia/sdm660-common/proprietary/lib64/com.quicinc.cne.server@1.0.so:system/lib64/com.quicinc.cne.server@1.0.so \
+    vendor/nokia/sdm660-common/proprietary/lib64/fm_helium.so:system/lib64/fm_helium.so \
     vendor/nokia/sdm660-common/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
     vendor/nokia/sdm660-common/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
     vendor/nokia/sdm660-common/proprietary/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
     vendor/nokia/sdm660-common/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
     vendor/nokia/sdm660-common/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
+    vendor/nokia/sdm660-common/proprietary/lib64/libfm-hci.so:system/lib64/libfm-hci.so \
     vendor/nokia/sdm660-common/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/nokia/sdm660-common/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/nokia/sdm660-common/proprietary/lib64/libmmosal.so:system/lib64/libmmosal.so \
@@ -97,6 +101,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libantradio \
+    vendor.qti.hardware.fm@1.0 \
     QtiTelephonyService \
     CNEService \
     WfdService \
